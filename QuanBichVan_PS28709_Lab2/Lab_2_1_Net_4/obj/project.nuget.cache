@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XdPVdH6nuUCE+eq9TmhpFK7wVt6Y3vxQmbvlXpFBwCjluGqkcWTwdGerxTr3b4mV/wxvxyQs2gNbkQ+b/ioFcA==",
+  "success": true,
+  "projectFilePath": "E:\\FPT\\C#4\\NET104\\Labs\\Lab_2_1_Net_4\\Lab_2_1_Net_4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yun PC\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
