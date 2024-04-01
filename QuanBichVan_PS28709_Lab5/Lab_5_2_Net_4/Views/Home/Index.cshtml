@@ -1,0 +1,37 @@
+﻿
+<div class="row">
+    <div class="col-12">
+        <p class="h2 fw-bold">@ViewData["Header"]</p>
+    </div>
+    <div class="col-12">
+        @if (ViewData["Students"] is List<Student> students && students != null)
+        {
+            foreach (var item in students)
+            {
+                <div class="m-5">
+                    <div class="row">
+                        <p class="h4 col-3">Id: </p>
+                        <p class="h4 col-9">@item.StudentId</p>
+                    </div>
+                    <div class="row">
+                        <p class="h4 col-3">Name: </p>
+                        <p class="h4 col-9">@item.Name</p>
+                    </div>
+                    <div class="row">
+                        <p class="h4 col-3">Brand: </p>
+                        <p class="h4 col-9">@item.Brand</p>
+                    </div>
+                    <div class="row">
+                        <p class="h4 col-3">Section: </p>
+                        <p class="h4 col-9">@item.Section</p>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No students found.</p>
+        }
+
+    </div>
+</div>
